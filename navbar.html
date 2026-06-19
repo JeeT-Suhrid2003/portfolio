@@ -1,0 +1,20 @@
+<!--
+  navbar.html — shared chrome fragment.
+  This is NOT a full page. It is fetched by app.js and injected into the
+  #chrome-root container on index.html, about.html and projects.html, so
+  the nav only has to be edited in one place.
+-->
+<div class="status-bar" role="status">
+  <span class="status-dot" aria-hidden="true"></span>
+  <span class="status-text">ALL SYSTEMS OPERATIONAL</span>
+  <span class="status-sep" aria-hidden="true">·</span>
+  <span class="status-uptime">SESSION UPTIME <time id="uptime-clock">00:00:00</time></span>
+</div>
+<nav class="topnav" aria-label="Primary">
+  <a href="index.html" class="brand">sg<span class="brand-accent">@</span>dev<span class="cursor" aria-hidden="true">_</span></a>
+  <div class="nav-links">
+    <a href="index.html" data-page="index">~/home</a>
+    <a href="about.html" data-page="about">~/about</a>
+    <a href="projects.html" data-page="projects">~/projects</a>
+  </div>
+</nav>
