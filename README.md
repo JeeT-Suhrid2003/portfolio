@@ -34,10 +34,5 @@ http-server -p 8000
   - /about.html
   - /projects.html
 
-**Deploy (quick)**
-- Push the repo to GitHub and enable GitHub Pages from repository settings (choose `main` branch or `/docs` folder).
-- Or use Cloudflare Pages for quick static deployments.
-
 ---
 
-If you want, I can start the Python server in your workspace terminal now or add a `package.json` + `start` script. Which would you prefer?
